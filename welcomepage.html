@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DL(Diagnostic Logistic)</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body >
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="logo.jpg" alt="Medical Website Logo">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#about-us">About Us</a></li>
+					<li><a href="#">Detection</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section id="Home" class="welcome">
+		<div class="container">
+			<h1>Welcome to Diagnostic Logistic</h1>
+			<p>Now-a-days, people face various diseases due to the environmental condition and their living habits. So, the prediction of disease at earlier stage becomes important task. But the accurate prediction on the basis of symptoms becomes too difficult for doctor. The correct prediction of disease is the most challenging task. To overcome this problem data mining plays an important role to predict the disease. Medical science has large amount of data growth per year. Due to increase amount of data growth in medical and healthcare field the accurate analysis on medical data which has been benefits from early patient care. With the help of disease data, data mining finds hidden pattern information in the huge amount of medical data. We proposed general disease prediction based on symptoms of the patient. For the disease prediction, we use K-Nearest Neighbor (KNN) and Support Vector Machine (SVM) and other machine learning algorithm for accurate prediction of disease. For disease prediction required disease symptoms dataset.In this general disease prediction, the living habits of person and checkup information consider for the accurate prediction. And the time and the memory requirement are also more in KNN than SVM. After general disease prediction, this system able to gives the risk associated with general disease which is lower risk of general disease or higher.
+Machine learning made computer more intelligent and can enable the computer to think. Different analysts feel that without learning, insight can't be created. There are numerous kinds of Machine Learning Techniques like Unsupervised, Semi Supervised, Supervised, Reinforcement, Evolutionary Learning and Deep Learning. These learnings are used to classify huge data very fatly.
+</p>
+			<button class="btn btn-primary">Click For Detection</button>
+		</div>
+	</section>
+
+	<div class="gallery">
+		<img src="image1.jpg" alt="Image 1">
+		<img src="image2.png" alt="Image 2">
+		<img src="image3.jpg" alt="Image 3">
+		<img src="image4.jpg" alt="Image 4">
+		<img src="image5.jpg" alt="Image 5">
+		<img src="image6.jpg" alt="Image 6">
+	</div>
+
+	<section id="about-us" class="about">
+		<div class="container">
+		<h1>About Us</h1>
+		<div class="clearfix">
+			<p>So we use K-Nearest Neighbor (KNN) and SVM (support vector machine) . Because medical data is increasing day by day so usage of that for predicting correct disease is crucial task but processing big data is very crucial in general so data mining plays very important role and classification of large dataset using machine learning becomes so easy. It is critical to comprehend the accurate diagnosis of patients by clinical examination and evaluation. Quality of the data association has been influenced due to improper management of the information. . Upgrade in the measure of data needs some legitimate way to concentrate and process information viably and efficiently. One of the many machine learning applications is utilized to construct such classifier that can separate the data based on their characteristics. Data set is partitioned into two or more than two classes. Such classifiers are utilized for medical data investigation and disease prediction. Today machine learning is present everywhere so that without knowing it, one can possibly use it many times a day.  </p>
+		</div>
+		<div class="clearfix">
+			<p>Our mission is to provide quality products and services to our customers while maintaining a high level of integrity and professionalism. We strive to exceed our customers' expectations and are committed to continuously improving our processes and procedures to ensure their satisfaction. We believe in treating our employees, customers, and suppliers with respect and fairness, and in giving back to our communities through charitable contributions and volunteer work.</p>
+		</div>
+		<h2>Meet the Team</h2>
+		<ul>
+			<li>Khushi Tyagi - Team Leader</li>
+			<li>Manan Singh - Development and Documentation</li>
+			<li>Lavish Sadh - Development</li>
+			<li>Ankita Singh - Research</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="contact">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form id="contact-form" method="post" action="sendemail.php">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" class="form-control" id="subject" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button >Submit</button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
